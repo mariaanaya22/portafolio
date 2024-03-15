@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    position: relative;
+    width: 100%;
+   
+   
+  
+}
+
+nav{
+ 
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content:  space-between;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: black;
+    padding: 5px 13px;
+}
+nav ul li a:hover{
+    color:rgb(165, 124, 53);
+}
+
+
+
+ .informacion h1{
+  font-size: 50px;
+  color: rgb(165, 124, 53);
+   width: 100px;
+   margin-top: 5%;
+   /*font size es para el tamaño de la letra*/
+   
+}
+
+.informacion p{
+    color: black;
+    line-height: 30px;
+    font-size: 25px;
+   
+}
+.informacion a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+   display:inline-block ;
+   margin: 30px 0;
+   border-radius: 50px;
+}
+
+.informacion a:hover{
+    background-color: rgb(255, 255, 255);
+    border:  1px solid rgb(0, 0, 0);
+    color: black;
+}
+
+
+
+.logo{
+    max-width: 50%;
+    position: absolute;
+    left: 70%;
+    bottom: 40%;}   
+ 
+    
+.about{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+
+     
+.about img {
+   width: 100%;
+   grid-column: 1/5;}
+
+.about-info{
+    grid-column: 5/10;
+    padding: 20px;
+}
+
+.about-info h2{
+    font-size: 50px;
+    color: rgb(165, 124, 53);
+}
+
+.divider{
+    height: 30%;
+    width: 60px;
+    background-color: rgb(165, 124, 53);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about p{
+    margin-bottom: 30px ;
+}
+
+   
+
+
+
+
+section.contacto{
+    width: 100%;
+    height: 290px;
+    background: rgb(7, 7, 7) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.contacto p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contacto .button2{
+    background-color: rgb(165, 124, 53) ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.contacto .button2:hover{
+    background-color: transparent;
+    border: 2px solid #a8a8a8;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1{
+    font-size: 30px;
+    color: rgb(255, 252, 252);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+
+
